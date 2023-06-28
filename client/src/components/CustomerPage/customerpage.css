@@ -1,0 +1,42 @@
+.customer-page {
+    text-align: center;
+  }
+  
+  .customer-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .customer-form input {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+
+  .customer-form select {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .customer-form button {
+    width: 120px;
+    height: 40px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .customer-form button:hover {
+    background-color: #2980b9;
+  }
+  
+  .customer-form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
